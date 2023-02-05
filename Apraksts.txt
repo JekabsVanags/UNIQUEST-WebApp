@@ -1,0 +1,7 @@
+Webapps ar spēles funkcionalitāti, līdzīgi kā geocatching.
+
+Lietotājiem ir iespēja izveidot līmeņus ievadot to aprakstu, nosaukumu, grūtības pakāpi, atrisinājuma lokāciju (līmenis skaitās izpildīts kad tu atrodies aptuveni pareizajā lokācijā).
+Lietotājiem ir iespēja līmeņus atzīmēt kā pašreizējos, kas tiem ļauj pārbaudīt savu atrašanās vietu pret pareizo lokāciju. Ja lietotājs ir pietiekami tuvu mīkla tiek uzskatīta par atrisinatu.
+Lietotājs var apskatīties savus izietos un izveidotos līmeņus, kā arī atstāt komentārus (komentāri dalās spoiler komentāros un non-spoiler komentāros, kur spoiler komentārus redz tikai
+tie kas ir pabeiguši līmeni.)
+Admin var dzēst visus komentārus un apskatīt sūdzības par līmeņiem.

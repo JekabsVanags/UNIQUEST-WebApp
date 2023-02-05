@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+html{
+    font-family: 'League Gothic', sans-serif;
+}
+
+body
+{
+    background-color: #DCE7D4;
+}
+#header {
+    padding: 5px;
+    text-align: center;
+    background: #2D4739;
+    color: white;
+    font-size: 15px;
+  }
+  .dot {
+    height: 80px;
+    width: 80px;
+    background-color: #B5CA8D;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: -40vw;
+    top: 30px;
+  }
+
+  #account{
+    background-color: #B5CA8D;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+ #konts{
+    position: relative;
+  float: right;
+  top:30px;
+  }
+
+  .hovers:hover{
+    background-color: #2f4606;
+    color: white;
+    border-color: #DCE7D4;
+    border: 2px;
+    transition: 0,4s;
+  }
+  img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 10px solid white;
+    position: relative;
+    right: -200px;
+
+  }
+  .level_sagatave{
+    background-color: #121619;
+    width: 500px;
+    height: 450px;
+    box-shadow: 8px 5px 5px black;
+    color: #B5CA8D;
+  }
+
+  button{
+    position: relative;
+    float: right;
+    right: 20px;
+  }
+
+  h2{
+    color: #B5CA8D;
+  }
+  .show_lvl{
+    background-color: #B5CA8D;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    width: 130px;
+    right: 100px;
+  }
+  .show_lvl:hover{
+    color: white;
+    background-color: #2f4606;
+    transition: 0.4s;
+  }
+  #title{
+    position: relative;
+    width: 30px;
+    max-width: 30px;
+    right: 30px;
+  }

@@ -1,0 +1,35 @@
+<?php
+
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Http\Request;
+use App\Models\Level;
+
+class canDelete
+{
+    /**
+     * Handle an incoming request.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Closure(\Illuminate\Http\Request): (\Illuminate\Http\Response|\Illuminate\Http\RedirectResponse)  $next
+     * @return \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse
+     */
+    public function handle(Request $request, Closure $next)
+    {
+            if(auth()->user())
+            {
+                $curlevel = Level::findorfail($request->route('id'));
+                if(auth()->user()->id == $curlevel->user_id or auth()->user()->role == 'admin')
+                {
+                    return $next($request);
+                }
+                else
+                {
+                    return abort(401);
+                }
+                
+            }
+       
+    }
+}

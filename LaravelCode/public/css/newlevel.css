@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+html{
+    font-family: 'League Gothic', sans-serif;
+}
+
+body
+{
+    background-color: #DCE7D4;
+}
+#header {
+    padding: 5px;
+    text-align: center;
+    background: #2D4739;
+    color: white;
+    font-size: 15px;
+  }
+  .dot {
+    height: 80px;
+    width: 80px;
+    background-color: #B5CA8D;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: -40vw;
+    top: 30px;
+  }
+
+  #account{
+    background-color: #B5CA8D;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+ #konts{
+    position: relative;
+  float: right;
+  top:30px;
+  }
+
+  .hovers:hover{
+    background-color: #2f4606;
+    color: white;
+    border-color: #DCE7D4;
+    border: 2px;
+    transition: 0,4s;
+  }
+
+  #return{
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+  }
+  #return_css{
+    background-color: #B5CA8D;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  #lokacija{
+    background-color: #121619;
+    width: 300px;
+    height: 450px;
+    left: 300px;
+    text-align: center;
+    position:relative;
+     left:200px;
+     top: 200px;
+     box-shadow: -8px 5px 5px black;
+  }
+  #limenis{
+    background-color: #121619;
+    width: 600px;
+    height: 750px;
+    left: 350px;
+    text-align: center;
+    position:relative;
+     left:650px;
+     top: -400px;
+     box-shadow: -8px 5px 5px black;
+  }
+  #limenis:before{
+    content:'';
+    position:absolute;
+    top: 0;
+    right: 0;
+    border-top:90px solid #DCE7D4;
+    border-left:90px solid black;
+    width: 0;
+}
+
+#lokacija:before{
+    content:'';
+    position:absolute;
+    top: 0;
+    right: 0;
+    border-top:50px solid #DCE7D4;
+    border-left:50px solid black;
+    width: 0;
+}
+
+#loc_virsr{
+    color: #B5CA8D;
+   font-weight: bold;
+   font-size: 30px;
+   bottom: 10px;
+}
+#level_virs{
+    color: #B5CA8D;
+    font-weight: bold;
+    font-size: 30px;
+    bottom: 10px;
+}
+
+#loc_name{
+   color: #B5CA8D;
+   font-size: 20px;
+}
+#countr_name{
+    color: #B5CA8D;
+    font-size: 20px;
+}
+#submit_loc{
+    background-color: #B5CA8D;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 170px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+}
+
+#level_sub{
+    background-color: #B5CA8D;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 170px;
+    height: 30px;
+    border: none;
+    font-size: 16px;  
+}
+.level{
+    color: #B5CA8D;
+    font-size: 20px;  
+}
+
+#image::before{
+    content: '';
+}
+#image{
+  content: '';
+  position:relative;
+  left: 85px;
+}
+input[type='file']{
+  color: #121619;
+}
+input[type=file]::file-selector-button {
+  background-color: #DCE7D4;
+  border-color: #B5CA8D;
+  border: 3px;
+  font-weight: bold;
+}
+.valid_css{
+  color: red;
+  font-size: 15px;
+}
